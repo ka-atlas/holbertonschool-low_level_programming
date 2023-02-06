@@ -9,6 +9,11 @@ int main()
         putchar(x);
     }
 
+    for(x = 'A'; x <= 'Z'; x++)
+    {
+        putchar(x);
+    }
+
     putchar('\n');
 
     return 0;
