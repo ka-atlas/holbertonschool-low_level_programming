@@ -6,7 +6,7 @@ int main()
 	
 
 	for (x = 0; x<=9; x++){
-		printf("%i", x);
+		putchar((x % 10) + '0');
 	}
 	
 	printf("\n");
