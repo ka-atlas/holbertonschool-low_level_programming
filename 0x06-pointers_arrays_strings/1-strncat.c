@@ -7,7 +7,7 @@ char *_strncat(char *dest, char *src, int n)
 	while (dest[dest_len]!='\0')
 		dest_len++;
 
-	while (index<n)
+	while (index<n && src[index]!='\0')
         {
                 dest[(dest_len+index)] = src[index];
                 index++;
