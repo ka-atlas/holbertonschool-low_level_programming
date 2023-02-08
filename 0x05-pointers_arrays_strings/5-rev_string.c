@@ -1,6 +1,6 @@
 #include "main.h"
 
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	int len = 0, i;
 	char tmp;
