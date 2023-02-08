@@ -8,7 +8,7 @@ void puts2(char *str)
 	{	
 		if (skip%2!=1)
 			_putchar(*str++);
-		skip+=1
+		skip+=1;
 	}
 	_putchar('\n');
 }
